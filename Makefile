@@ -1,10 +1,10 @@
 
 NAME=owncloud
 PWD=$(shell pwd)
-VERSION=$(shell cat VERSION)
+VERSION=8.2.3
 
 build:
-	docker build -t ${NAME} --build-arg=VERSION=${VERSION} .
+	docker build -t ${NAME} .
 
 shell: build
 	docker run -it --rm ${NAME} sh
