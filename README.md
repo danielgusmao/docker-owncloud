@@ -14,8 +14,8 @@
 ## Software
 
 * apache2-2.4.16-r0
-* php-apache2-5.6.14-r0
-* owncloud 8.2.3 (from source)
+* php-apache2-5.6.20-r0
+* owncloud 9.0.1 (from source)
 
 ## Notes
 
