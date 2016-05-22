@@ -1,7 +1,7 @@
 
 NAME=owncloud
 PWD=$(shell pwd)
-VERSION=9.0.1-1
+VERSION=9.0.2
 
 build:
 	docker build -t ${NAME} .
