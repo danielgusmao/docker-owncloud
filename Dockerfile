@@ -1,7 +1,7 @@
 FROM alpine:3.2
 MAINTAINER Peter Suschlik <peter@suschlik.de>
 
-ENV OWNCLOUD_VERSION 9.0.2
+ENV OWNCLOUD_VERSION 9.0.4
 
 ENV OWNCLOUD_PACKAGE owncloud-$OWNCLOUD_VERSION.tar.bz2
 ENV OWNCLOUD_URL https://download.owncloud.org/community/$OWNCLOUD_PACKAGE
