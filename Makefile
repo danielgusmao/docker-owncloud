@@ -1,7 +1,7 @@
 
 NAME=owncloud
 PWD=$(shell pwd)
-VERSION=9.0.4
+VERSION=9.1.0
 
 build:
 	docker build -t ${NAME} .
@@ -10,7 +10,7 @@ shell: build
 	docker run -it --rm ${NAME} sh
 
 test: build
-	docker run --link mysql:mysql --rm -it -P -v ${PWD}/volumes/data:/usr/share/owncloud/data -v ${PWD}/volumes/config:/usr/share/owncloud/config ${NAME}
+	docker run --network backend --rm -it -P -v ${PWD}/volumes/data:/usr/share/owncloud/data -v ${PWD}/volumes/config:/usr/share/owncloud/config ${NAME}
 
 daemon: build
 	docker run -d --name ${NAME} ${NAME}
