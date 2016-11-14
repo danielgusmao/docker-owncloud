@@ -1,6 +1,6 @@
 # ownCloud on Alpine 3.2
 
-[![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-square)](https://registry.hub.docker.com/u/splattael/owncloud/)
+[![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-round)](https://registry.hub.docker.com/u/splattael/owncloud/)
 [![microbadger](https://images.microbadger.com/badges/image/splattael/owncloud.svg)](https://microbadger.com/images/splattael/owncloud)
 
 ## Docker run
